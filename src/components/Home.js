@@ -23,7 +23,7 @@ export default class Home extends Component {
               </button>
             </div>
           </div>
-          <div className="w-3/6 bg-contain mt-8">
+          <div className="hidden md:block w-3/6 bg-contain mt-8">
             <img
               alt="background"
               className="object-fill rounded w-full"

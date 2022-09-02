@@ -23,7 +23,7 @@ export default class Header extends Component {
             </button>
           </div>
           <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto pr-4">
-            <div class="text-md mx-auto space-x-8 font-semibold">
+            <div class="text-md mx-auto space-y-7 md:space-y-0 md:space-x-8 font-semibold">
               <a
                 href="#responsive-header"
                 class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-gray-400"
@@ -45,7 +45,7 @@ export default class Header extends Component {
             </div>
             <div class="w-3/5 px-8">
               <input
-                class="bg-gray-200 appearance-none border-2  border-gray-200 rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                 id="inline-full-name"
                 type="text"
                 placeholder="Jane Doe"
